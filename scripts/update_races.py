@@ -13,6 +13,18 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0"
 }
 
+SKIP_LINES = {
+    "ABC Guide",
+    "Today",
+    "Tomorrow",
+    "5 Days",
+    "Declared Runners",
+    "Jockey Rides",
+    "Trainer Entries",
+    "Horse Race Day Odds",
+    "My Stable",
+}
+
 DAY_NAMES = {
     "Monday", "Tuesday", "Wednesday", "Thursday",
     "Friday", "Saturday", "Sunday"
@@ -27,57 +39,65 @@ def fractional_to_decimal(frac):
         return None
 
 
-def clean_text(line):
-    line = re.sub(r"\[[^\]]+\]", "", line)
+def clean_line(line):
     line = re.sub(r"<[^>]+>", "", line)
     line = re.sub(r"\s+", " ", line).strip()
     return line
 
 
-def parse_entries_from_text(html):
-    raw_lines = html.splitlines()
-    lines = [clean_text(line) for line in raw_lines]
+def extract_entry_line(line):
+    match = re.match(
+        r"^(\d{1,2}:\d{2})\s+(.+?)\s+"
+        r"(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s+"
+        r"(\d+/\d+)$",
+        line
+    )
+    if not match:
+        return None
+
+    return {
+        "time": match.group(1).strip(),
+        "course": match.group(2).strip(),
+        "day": match.group(3).strip(),
+        "odds": match.group(4).strip(),
+    }
+
+
+def parse_html_entries(html):
+    lines = [clean_line(line) for line in html.splitlines()]
     lines = [line for line in lines if line]
 
     entries = []
 
     i = 0
     while i < len(lines):
-        line = lines[i]
+        horse = lines[i]
 
-        if line in {"Horse Race Day Odds", "ABC Guide", "Today", "Tomorrow", "5 Days", "My Stable"}:
+        if horse in SKIP_LINES:
             i += 1
             continue
 
-        horse = line
-
-        if i + 2 >= len(lines):
+        if re.match(r"^\d{1,2}:\d{2}\s+", horse):
             i += 1
             continue
 
-        if lines[i + 1] == "My Stable":
-            race_day_odds = lines[i + 2]
+        if horse in DAY_NAMES:
+            i += 1
+            continue
 
-            match = re.match(
-                r"^(\d{1,2}:\d{2})\s+(.+?)\s+"
-                r"(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s+"
-                r"(\d+/\d+)$",
-                race_day_odds
-            )
+        if re.match(r"^\d+/\d+$", horse):
+            i += 1
+            continue
 
-            if match:
-                time_part = match.group(1).strip()
-                course = match.group(2).strip()
-                day = match.group(3).strip()
-                odds = match.group(4).strip()
-
+        if i + 2 < len(lines) and lines[i + 1] == "My Stable":
+            parsed = extract_entry_line(lines[i + 2])
+            if parsed:
                 entries.append({
                     "horse": horse,
-                    "race": f"{time_part} {course}",
-                    "day": day,
-                    "odds": odds
+                    "race": f"{parsed['time']} {parsed['course']}",
+                    "day": parsed["day"],
+                    "odds": parsed["odds"],
                 })
-
                 i += 3
                 continue
 
@@ -139,7 +159,7 @@ def main():
         try:
             response = requests.get(url, headers=HEADERS, timeout=30)
             response.raise_for_status()
-            entries = parse_entries_from_text(response.text)
+            entries = parse_html_entries(response.text)
             print(f"{url} -> {len(entries)} entries")
             all_entries.extend(entries)
         except Exception as exc:
