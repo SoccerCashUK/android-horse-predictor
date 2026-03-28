@@ -17,6 +17,10 @@ jobs:
         run: git clone https://github.com/${{ github.repository }}.git repo
 
       - name: Run updater
+        # This is the important part that connects to your secrets
+        env:
+          RACING_API_USER: ${{ secrets.RACING_API_USER }}
+          RACING_API_PASS: ${{ secrets.RACING_API_PASS }}
         run: |
           cd repo
           python3 --version
