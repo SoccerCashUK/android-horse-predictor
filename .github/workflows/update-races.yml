@@ -2,10 +2,8 @@ name: Update race data
 
 on:
   schedule:
-    # Runs every day at 8:00 AM UTC
     - cron: '0 8 * * *'
   workflow_dispatch:
-    # Allows you to click the manual "Run workflow" button
 
 permissions:
   contents: write
@@ -23,14 +21,15 @@ jobs:
         with:
           python-version: '3.9'
 
+      - name: Install dependencies
+        run: python -m pip install requests
+
       - name: Run updater
-        # This section connects your Vault Secrets to the Script
+        # This block MUST be exactly 8 spaces in from the left margin
         env:
           RACING_API_USER: ${{ secrets.RACING_API_USER }}
           RACING_API_PASS: ${{ secrets.RACING_API_PASS }}
-        run: |
-          python -m pip install requests
-          python scripts/update_races.py
+        run: python scripts/update_races.py
 
       - name: Commit and Push changes
         run: |
