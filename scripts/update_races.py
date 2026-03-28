@@ -1,55 +1,56 @@
 import json
 import requests
-import re
+import os
 from datetime import datetime
 
-# A more open source for general race names
-URL = "https://www.racingpost.com/racecards/"
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Mobile/15E148 Safari/604.1"
-}
+# We pull these from the "Vault" we just set up
+API_USER = os.getenv("RACING_API_USER")
+API_PASS = os.getenv("RACING_API_PASS")
 
 def main():
-    print(f"Update started at {datetime.now().strftime('%H:%M:%S')}")
-    output = []
+    print("Connecting to TheRacingAPI.com...")
     
+    if not API_USER or not API_PASS:
+        print("❌ Error: API credentials missing from GitHub Secrets!")
+        return
+
     try:
-        # Try to get real courses from Racing Post
-        r = requests.get(URL, headers=HEADERS, timeout=15)
-        r.raise_for_status()
+        # 1. Authenticate and get data
+        # Note: TheRacingAPI often uses Basic Auth or a simple API Key. 
+        # Using the standard endpoint:
+        url = "https://api.theracingapi.com/v1/racecards/free"
         
-        # Simple extraction of course names
-        courses = list(set(re.findall(r'class="ui-link ui-link--secondary.*?>(.*?)<', r.text)))
+        response = requests.get(url, auth=(API_USER, API_PASS), timeout=20)
         
-        if courses:
-            for course in courses[:5]:  # Take the first 5 courses
+        if response.status_code == 200:
+            data = response.json()
+            racecards = data.get('racecards', [])
+            
+            output = []
+            for race in racecards:
+                runners = []
+                for horse in race.get('runners', []):
+                    runners.append({
+                        "horse": horse.get('name'),
+                        "odds": horse.get('odds', 'SP'),
+                        "implied_prob": 1.0 / len(race.get('runners', [1]))
+                    })
+                
                 output.append({
                     "day": "Today",
-                    "time": "Next Race",
-                    "course": course.strip(),
-                    "runners": [
-                        {"horse": "Calculating Odds...", "odds": "SP", "implied_prob": 0.5},
-                        {"horse": "Analyzing Form...", "odds": "SP", "implied_prob": 0.5}
-                    ]
+                    "time": race.get('time'),
+                    "course": race.get('course'),
+                    "runners": runners
                 })
-            print(f"✅ Successfully pulled {len(output)} courses from Racing Post.")
-    
-    except Exception as e:
-        print(f"⚠️ Live fetch failed ({e}). Using system generation instead.")
-        output = [{
-            "day": "Today",
-            "time": datetime.now().strftime("%H:%M"),
-            "course": "System Daily Update",
-            "runners": [
-                {"horse": "System Online", "odds": "1/1", "implied_prob": 0.5},
-                {"horse": "Data Sync Active", "odds": "1/1", "implied_prob": 0.5}
-            ]
-        }]
 
-    # Save the file
-    with open("data/upcoming_races.json", "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
-    print("🚀 Data successfully committed to the repository.")
+            with open("data/upcoming_races.json", "w", encoding="utf-8") as f:
+                json.dump(output, f, indent=2, ensure_ascii=False)
+            print(f"✅ Success! Loaded {len(output)} races.")
+        else:
+            print(f"❌ Failed: {response.status_code} - {response.text}")
+
+    except Exception as e:
+        print(f"❌ System Error: {e}")
 
 if __name__ == "__main__":
     main()
