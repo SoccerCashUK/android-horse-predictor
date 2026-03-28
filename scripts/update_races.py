@@ -2,7 +2,6 @@ import json
 import re
 import requests
 from collections import defaultdict
-from bs4 import BeautifulSoup
 
 URLS = [
     "https://www.sportinglife.com/racing/abc-guide/today",
@@ -18,29 +17,27 @@ def fractional_to_decimal(frac):
         return (float(num) / float(den)) + 1.0
     except: return None
 
-def parse_sporting_life(html):
-    soup = BeautifulSoup(html, 'html.parser')
+def parse_html_entries(html):
+    # Remove HTML tags to get clean text
+    text = re.sub(r"<[^>]+>", "\n", html)
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    
     entries = []
+    # This pattern looks for: 14:10 Kempton Monday 5/1
+    pattern = r"(\d{1,2}:\d{2})\s+(.+?)\s+(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s+(\d+/\d+)"
     
-    # Look for the race cards on the ABC guide
-    sections = soup.find_all('div', class_=re.compile('ABCGuideHorse__Container'))
-    
-    for section in sections:
-        try:
-            horse_name = section.find('span', class_=re.compile('HorseName')).text.strip()
-            race_info = section.find('div', class_=re.compile('RaceInfo')).text.strip()
-            # Pattern: 14:10 Kempton Park Monday 5/1
-            match = re.search(r"(\d{1,2}:\d{2})\s+(.+?)\s+(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s+(\d+/\d+)", race_info)
+    for i in range(len(lines)):
+        match = re.search(pattern, lines[i])
+        if match:
+            # The horse name is usually the line right BEFORE the race info
+            horse_name = lines[i-1] if i > 0 else "Unknown Horse"
             
-            if match:
-                entries.append({
-                    "horse": horse_name,
-                    "race": f"{match.group(1)} {match.group(2)}",
-                    "day": match.group(3),
-                    "odds": match.group(4)
-                })
-        except:
-            continue
+            entries.append({
+                "horse": horse_name,
+                "race": f"{match.group(1)} {match.group(2)}",
+                "day": match.group(3),
+                "odds": match.group(4)
+            })
     return entries
 
 def build_races(entries):
@@ -60,8 +57,12 @@ def build_races(entries):
 
     output = []
     for key, runners in races.items():
-        day, race_name = key.split("_", 1)
-        time_part, course = race_name.split(" ", 1)
+        parts = key.split("_", 1)
+        day = parts[0]
+        race_info = parts[1].split(" ", 1)
+        time_part = race_info[0]
+        course = race_info[1]
+        
         total_prob = sum(r["implied_prob"] for r in runners)
         if total_prob > 0:
             for r in runners: r["implied_prob"] /= total_prob
@@ -78,15 +79,16 @@ def main():
         try:
             print(f"Fetching {url}...")
             r = requests.get(url, headers=HEADERS, timeout=30)
-            entries = parse_sporting_life(r.text)
+            r.raise_for_status()
+            entries = parse_html_entries(r.text)
             print(f"Found {len(entries)} entries")
             all_entries.extend(entries)
         except Exception as e:
             print(f"Error: {e}")
 
     races = build_races(all_entries)
-    with open("data/upcoming_races.json", "w") as f:
-        json.dump(races, f, indent=2)
+    with open("data/upcoming_races.json", "w", encoding="utf-8") as f:
+        json.dump(races, f, indent=2, ensure_ascii=False)
     print(f"Wrote {len(races)} races")
 
 if __name__ == "__main__":
