@@ -3,13 +3,17 @@ import re
 import requests
 from collections import defaultdict
 
-URLS = [
-    "https://www.sportinglife.com/racing/abc-guide/today",
-    "https://www.sportinglife.com/racing/abc-guide/tomorrow",
-    "https://www.sportinglife.com/racing/abc-guide/5-days",
-]
+# Focusing on just Today to increase our chances of getting through
+URLS = ["https://www.sportinglife.com/racing/abc-guide/today"]
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
+# High-quality headers to mimic a real modern browser
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "en-GB,en;q=0.9",
+    "Referer": "https://www.google.com/",
+    "Connection": "keep-alive"
+}
 
 def fractional_to_decimal(frac):
     try:
@@ -18,20 +22,18 @@ def fractional_to_decimal(frac):
     except: return None
 
 def parse_html_entries(html):
-    # This looks for the horse name and the race details in one big chunk
-    # Pattern: Matches Horse Name followed by Time, Course, Day, and Odds
-    # Example: 'Corach Rambler... 14:10 Aintree Saturday 5/1'
     entries = []
+    # This searches for the specific text pattern Sporting Life uses for horse/race data
+    # It looks for: Horse Name ... Time ... Course ... Day ... Odds
+    pattern = r"([A-Z]{2,}[A-Z\s']+).*?(\d{1,2}:\d{2})\s+([A-Za-z\s]+)\s+(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s+(\d+/\d+)"
     
-    # We look for anything that ends in a fraction (odds) and has a time/day before it
-    raw_matches = re.findall(r"([A-Z][a-z']+(?:\s[A-Z][a-z']+)*).*?(\d{1,2}:\d{2})\s+(.+?)\s+(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s+(\d+/\d+)", html)
-    
-    for match in raw_matches:
+    matches = re.findall(pattern, html)
+    for m in matches:
         entries.append({
-            "horse": match[0].strip(),
-            "race": f"{match[1]} {match[2]}",
-            "day": match[3],
-            "odds": match[4]
+            "horse": m[0].strip(),
+            "race": f"{m[1]} {m[2].strip()}",
+            "day": m[3],
+            "odds": m[4]
         })
     return entries
 
@@ -66,13 +68,19 @@ def build_races(entries):
 
 def main():
     all_entries = []
+    # Create a session to keep cookies (looks more human)
+    session = requests.Session()
+    
     for url in URLS:
         try:
             print(f"Fetching {url}...")
-            r = requests.get(url, headers=HEADERS, timeout=30)
-            entries = parse_html_entries(r.text)
-            print(f"Found {len(entries)} entries")
-            all_entries.extend(entries)
+            r = session.get(url, headers=HEADERS, timeout=20)
+            if r.status_code == 200:
+                entries = parse_html_entries(r.text)
+                print(f"Found {len(entries)} entries")
+                all_entries.extend(entries)
+            else:
+                print(f"Blocked by website. Status code: {r.status_code}")
         except Exception as e:
             print(f"Error: {e}")
 
