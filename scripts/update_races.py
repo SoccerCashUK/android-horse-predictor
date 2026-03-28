@@ -9,7 +9,7 @@ URLS = [
     "https://www.sportinglife.com/racing/abc-guide/5-days",
 ]
 
-HEADERS = {"User-Agent": "Mozilla/5.0"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
 
 def fractional_to_decimal(frac):
     try:
@@ -18,26 +18,21 @@ def fractional_to_decimal(frac):
     except: return None
 
 def parse_html_entries(html):
-    # Remove HTML tags to get clean text
-    text = re.sub(r"<[^>]+>", "\n", html)
-    lines = [line.strip() for line in text.splitlines() if line.strip()]
-    
+    # This looks for the horse name and the race details in one big chunk
+    # Pattern: Matches Horse Name followed by Time, Course, Day, and Odds
+    # Example: 'Corach Rambler... 14:10 Aintree Saturday 5/1'
     entries = []
-    # This pattern looks for: 14:10 Kempton Monday 5/1
-    pattern = r"(\d{1,2}:\d{2})\s+(.+?)\s+(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s+(\d+/\d+)"
     
-    for i in range(len(lines)):
-        match = re.search(pattern, lines[i])
-        if match:
-            # The horse name is usually the line right BEFORE the race info
-            horse_name = lines[i-1] if i > 0 else "Unknown Horse"
-            
-            entries.append({
-                "horse": horse_name,
-                "race": f"{match.group(1)} {match.group(2)}",
-                "day": match.group(3),
-                "odds": match.group(4)
-            })
+    # We look for anything that ends in a fraction (odds) and has a time/day before it
+    raw_matches = re.findall(r"([A-Z][a-z']+(?:\s[A-Z][a-z']+)*).*?(\d{1,2}:\d{2})\s+(.+?)\s+(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s+(\d+/\d+)", html)
+    
+    for match in raw_matches:
+        entries.append({
+            "horse": match[0].strip(),
+            "race": f"{match[1]} {match[2]}",
+            "day": match[3],
+            "odds": match[4]
+        })
     return entries
 
 def build_races(entries):
@@ -45,7 +40,6 @@ def build_races(entries):
     for item in entries:
         dec = fractional_to_decimal(item["odds"])
         if not dec: continue
-        
         prob = 1 / dec
         key = f'{item["day"]}_{item["race"]}'
         races[key].append({
@@ -57,18 +51,15 @@ def build_races(entries):
 
     output = []
     for key, runners in races.items():
-        parts = key.split("_", 1)
-        day = parts[0]
-        race_info = parts[1].split(" ", 1)
-        time_part = race_info[0]
-        course = race_info[1]
-        
-        total_prob = sum(r["implied_prob"] for r in runners)
-        if total_prob > 0:
-            for r in runners: r["implied_prob"] /= total_prob
-        
-        runners.sort(key=lambda x: x["implied_prob"], reverse=True)
-        output.append({"day": day, "time": time_part, "course": course, "runners": runners})
+        try:
+            day, race_info = key.split("_", 1)
+            time_part, course = race_info.split(" ", 1)
+            total_prob = sum(r["implied_prob"] for r in runners)
+            if total_prob > 0:
+                for r in runners: r["implied_prob"] /= total_prob
+            runners.sort(key=lambda x: x["implied_prob"], reverse=True)
+            output.append({"day": day, "time": time_part, "course": course, "runners": runners})
+        except: continue
     
     output.sort(key=lambda x: (x["day"], x["time"], x["course"]))
     return output
@@ -79,7 +70,6 @@ def main():
         try:
             print(f"Fetching {url}...")
             r = requests.get(url, headers=HEADERS, timeout=30)
-            r.raise_for_status()
             entries = parse_html_entries(r.text)
             print(f"Found {len(entries)} entries")
             all_entries.extend(entries)
