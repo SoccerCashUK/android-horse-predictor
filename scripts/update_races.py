@@ -2,6 +2,7 @@ import json
 import re
 import requests
 from collections import defaultdict
+from bs4 import BeautifulSoup
 
 URLS = [
     "https://www.sportinglife.com/racing/abc-guide/today",
@@ -9,119 +10,47 @@ URLS = [
     "https://www.sportinglife.com/racing/abc-guide/5-days",
 ]
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0"
-}
-
-SKIP_LINES = {
-    "ABC Guide",
-    "Today",
-    "Tomorrow",
-    "5 Days",
-    "Declared Runners",
-    "Jockey Rides",
-    "Trainer Entries",
-    "Horse Race Day Odds",
-    "My Stable",
-}
-
-DAY_NAMES = {
-    "Monday", "Tuesday", "Wednesday", "Thursday",
-    "Friday", "Saturday", "Sunday"
-}
-
+HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 def fractional_to_decimal(frac):
     try:
         num, den = frac.split("/")
         return (float(num) / float(den)) + 1.0
-    except Exception:
-        return None
+    except: return None
 
-
-def clean_line(line):
-    line = re.sub(r"<[^>]+>", "", line)
-    line = re.sub(r"\s+", " ", line).strip()
-    return line
-
-
-def extract_entry_line(line):
-    match = re.match(
-        r"^(\d{1,2}:\d{2})\s+(.+?)\s+"
-        r"(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s+"
-        r"(\d+/\d+)$",
-        line
-    )
-    if not match:
-        return None
-
-    return {
-        "time": match.group(1).strip(),
-        "course": match.group(2).strip(),
-        "day": match.group(3).strip(),
-        "odds": match.group(4).strip(),
-    }
-
-
-def parse_html_entries(html):
-    lines = [clean_line(line) for line in html.splitlines()]
-    lines = [line for line in lines if line]
-
+def parse_sporting_life(html):
+    soup = BeautifulSoup(html, 'html.parser')
     entries = []
-
-    i = 0
-    while i < len(lines):
-        horse = lines[i]
-
-        if horse in SKIP_LINES:
-            i += 1
-            continue
-
-        if re.match(r"^\d{1,2}:\d{2}\s+", horse):
-            i += 1
-            continue
-
-        if horse in DAY_NAMES:
-            i += 1
-            continue
-
-        if re.match(r"^\d+/\d+$", horse):
-            i += 1
-            continue
-
-        if i + 2 < len(lines) and lines[i + 1] == "My Stable":
-            parsed = extract_entry_line(lines[i + 2])
-            if parsed:
+    
+    # Look for the race cards on the ABC guide
+    sections = soup.find_all('div', class_=re.compile('ABCGuideHorse__Container'))
+    
+    for section in sections:
+        try:
+            horse_name = section.find('span', class_=re.compile('HorseName')).text.strip()
+            race_info = section.find('div', class_=re.compile('RaceInfo')).text.strip()
+            # Pattern: 14:10 Kempton Park Monday 5/1
+            match = re.search(r"(\d{1,2}:\d{2})\s+(.+?)\s+(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s+(\d+/\d+)", race_info)
+            
+            if match:
                 entries.append({
-                    "horse": horse,
-                    "race": f"{parsed['time']} {parsed['course']}",
-                    "day": parsed["day"],
-                    "odds": parsed["odds"],
+                    "horse": horse_name,
+                    "race": f"{match.group(1)} {match.group(2)}",
+                    "day": match.group(3),
+                    "odds": match.group(4)
                 })
-                i += 3
-                continue
-
-        i += 1
-
+        except:
+            continue
     return entries
-
 
 def build_races(entries):
     races = defaultdict(list)
-
     for item in entries:
-        try:
-            time_part, course = item["race"].split(" ", 1)
-        except ValueError:
-            continue
-
         dec = fractional_to_decimal(item["odds"])
-        if not dec:
-            continue
-
+        if not dec: continue
+        
         prob = 1 / dec
-        key = f'{item["day"]}_{time_part}_{course}'
-
+        key = f'{item["day"]}_{item["race"]}'
         races[key].append({
             "horse": item["horse"],
             "odds": item["odds"],
@@ -130,48 +59,35 @@ def build_races(entries):
         })
 
     output = []
-
     for key, runners in races.items():
-        day, time_part, course = key.split("_", 2)
+        day, race_name = key.split("_", 1)
+        time_part, course = race_name.split(" ", 1)
         total_prob = sum(r["implied_prob"] for r in runners)
-
         if total_prob > 0:
-            for runner in runners:
-                runner["implied_prob"] = runner["implied_prob"] / total_prob
-
+            for r in runners: r["implied_prob"] /= total_prob
+        
         runners.sort(key=lambda x: x["implied_prob"], reverse=True)
-
-        output.append({
-            "day": day,
-            "time": time_part,
-            "course": course,
-            "runners": runners
-        })
-
+        output.append({"day": day, "time": time_part, "course": course, "runners": runners})
+    
     output.sort(key=lambda x: (x["day"], x["time"], x["course"]))
     return output
 
-
 def main():
     all_entries = []
-
     for url in URLS:
         try:
-            response = requests.get(url, headers=HEADERS, timeout=30)
-            response.raise_for_status()
-            entries = parse_html_entries(response.text)
-            print(f"{url} -> {len(entries)} entries")
+            print(f"Fetching {url}...")
+            r = requests.get(url, headers=HEADERS, timeout=30)
+            entries = parse_sporting_life(r.text)
+            print(f"Found {len(entries)} entries")
             all_entries.extend(entries)
-        except Exception as exc:
-            print(f"Failed to fetch {url}: {exc}")
+        except Exception as e:
+            print(f"Error: {e}")
 
     races = build_races(all_entries)
-
-    with open("data/upcoming_races.json", "w", encoding="utf-8") as f:
-        json.dump(races, f, indent=2, ensure_ascii=False)
-
+    with open("data/upcoming_races.json", "w") as f:
+        json.dump(races, f, indent=2)
     print(f"Wrote {len(races)} races")
-
 
 if __name__ == "__main__":
     main()
