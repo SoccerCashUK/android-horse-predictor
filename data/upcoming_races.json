@@ -2,70 +2,8 @@
   {
     "day": "Today",
     "time": "N/A",
-    "course": "Flemington",
+    "course": "Saint-Cloud",
     "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Flemington",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
       {
         "horse": "Unknown",
         "odds": "SP",
@@ -121,23 +59,8 @@
   {
     "day": "Today",
     "time": "N/A",
-    "course": "Rosehill",
+    "course": "Ascot",
     "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
       {
         "horse": "Unknown",
         "odds": "SP",
@@ -168,68 +91,8 @@
   {
     "day": "Today",
     "time": "N/A",
-    "course": "Rosehill",
+    "course": "Ascot",
     "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
       {
         "horse": "Unknown",
         "odds": "SP",
@@ -260,126 +123,7 @@
   {
     "day": "Today",
     "time": "N/A",
-    "course": "Rosehill",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Rosehill",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Rosehill",
+    "course": "Ascot",
     "runners": [
       {
         "horse": "Unknown",
@@ -451,7 +195,39 @@
   {
     "day": "Today",
     "time": "N/A",
-    "course": "Rosehill",
+    "course": "Ascot",
+    "runners": [
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      }
+    ]
+  },
+  {
+    "day": "Today",
+    "time": "N/A",
+    "course": "Ascot",
     "runners": [
       {
         "horse": "Unknown",
@@ -503,8 +279,112 @@
   {
     "day": "Today",
     "time": "N/A",
-    "course": "Rosehill",
+    "course": "Ascot",
     "runners": [
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      }
+    ]
+  },
+  {
+    "day": "Today",
+    "time": "N/A",
+    "course": "Ascot",
+    "runners": [
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      }
+    ]
+  },
+  {
+    "day": "Today",
+    "time": "N/A",
+    "course": "Doncaster",
+    "runners": [
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
       {
         "horse": "Unknown",
         "odds": "SP",
@@ -595,13 +475,80 @@
   {
     "day": "Today",
     "time": "N/A",
-    "course": "Rosehill",
+    "course": "Doncaster",
     "runners": [
       {
         "horse": "Unknown",
         "odds": "SP",
         "implied_prob": 10.0
       },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      }
+    ]
+  },
+  {
+    "day": "Today",
+    "time": "N/A",
+    "course": "Doncaster",
+    "runners": [
       {
         "horse": "Unknown",
         "odds": "SP",
@@ -830,118 +777,6 @@
         "horse": "Unknown",
         "odds": "SP",
         "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Doncaster",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
       },
       {
         "horse": "Unknown",
@@ -955,108 +790,6 @@
     "time": "N/A",
     "course": "Doncaster",
     "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Doncaster",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
       {
         "horse": "Unknown",
         "odds": "SP",
@@ -1129,33 +862,6 @@
         "odds": "SP",
         "implied_prob": 10.0
       },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Doncaster",
-    "runners": [
       {
         "horse": "Unknown",
         "odds": "SP",
@@ -1312,43 +1018,6 @@
         "horse": "Unknown",
         "odds": "SP",
         "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Kempton (AW)",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
       },
       {
         "horse": "Unknown",
@@ -1370,416 +1039,7 @@
   {
     "day": "Today",
     "time": "N/A",
-    "course": "Kempton (AW)",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Kempton (AW)",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Kempton (AW)",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Kempton (AW)",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Kempton (AW)",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Kempton (AW)",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Southwell (AW)",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Southwell (AW)",
+    "course": "Sha Tin",
     "runners": [
       {
         "horse": "Unknown",
@@ -1850,48 +1110,6 @@
         "horse": "Unknown",
         "odds": "SP",
         "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Southwell (AW)",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
       },
       {
         "horse": "Unknown",
@@ -1908,1002 +1126,7 @@
   {
     "day": "Today",
     "time": "N/A",
-    "course": "Southwell (AW)",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Southwell (AW)",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Southwell (AW)",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Southwell (AW)",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Southwell (AW)",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Stratford",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Stratford",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Stratford",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Stratford",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Stratford",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Stratford",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Stratford",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Uttoxeter",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Uttoxeter",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Uttoxeter",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Uttoxeter",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Uttoxeter",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Uttoxeter",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Uttoxeter",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Curragh",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Curragh",
+    "course": "Sha Tin",
     "runners": [
       {
         "horse": "Unknown",
@@ -2985,23 +1208,8 @@
   {
     "day": "Today",
     "time": "N/A",
-    "course": "Curragh",
+    "course": "Sha Tin",
     "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
       {
         "horse": "Unknown",
         "odds": "SP",
@@ -3067,13 +1275,8 @@
   {
     "day": "Today",
     "time": "N/A",
-    "course": "Curragh",
+    "course": "Sha Tin",
     "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
       {
         "horse": "Unknown",
         "odds": "SP",
@@ -3124,254 +1327,8 @@
   {
     "day": "Today",
     "time": "N/A",
-    "course": "Curragh",
+    "course": "Sha Tin",
     "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Curragh",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Curragh",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Curragh",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
       {
         "horse": "Unknown",
         "odds": "SP",
@@ -3457,7 +1414,310 @@
   {
     "day": "Today",
     "time": "N/A",
-    "course": "Trentham",
+    "course": "Sha Tin",
+    "runners": [
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      }
+    ]
+  },
+  {
+    "day": "Today",
+    "time": "N/A",
+    "course": "Sha Tin",
+    "runners": [
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      }
+    ]
+  },
+  {
+    "day": "Today",
+    "time": "N/A",
+    "course": "Sha Tin",
+    "runners": [
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      }
+    ]
+  },
+  {
+    "day": "Today",
+    "time": "N/A",
+    "course": "Sha Tin",
+    "runners": [
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      }
+    ]
+  },
+  {
+    "day": "Today",
+    "time": "N/A",
+    "course": "Sha Tin",
     "runners": [
       {
         "horse": "Unknown",
@@ -3529,7 +1789,176 @@
   {
     "day": "Today",
     "time": "N/A",
-    "course": "Trentham",
+    "course": "Sha Tin",
+    "runners": [
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      }
+    ]
+  },
+  {
+    "day": "Today",
+    "time": "N/A",
+    "course": "Downpatrick",
+    "runners": [
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      }
+    ]
+  },
+  {
+    "day": "Today",
+    "time": "N/A",
+    "course": "Downpatrick",
     "runners": [
       {
         "horse": "Unknown",
@@ -3626,13 +2055,65 @@
   {
     "day": "Today",
     "time": "N/A",
-    "course": "Meydan",
+    "course": "Downpatrick",
     "runners": [
       {
         "horse": "Unknown",
         "odds": "SP",
         "implied_prob": 10.0
       },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      },
+      {
+        "horse": "Unknown",
+        "odds": "SP",
+        "implied_prob": 10.0
+      }
+    ]
+  },
+  {
+    "day": "Today",
+    "time": "N/A",
+    "course": "Downpatrick",
+    "runners": [
       {
         "horse": "Unknown",
         "odds": "SP",
@@ -3693,7 +2174,7 @@
   {
     "day": "Today",
     "time": "N/A",
-    "course": "Meydan",
+    "course": "Downpatrick",
     "runners": [
       {
         "horse": "Unknown",
@@ -3720,105 +2201,6 @@
         "odds": "SP",
         "implied_prob": 10.0
       },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Meydan",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Meydan",
-    "runners": [
       {
         "horse": "Unknown",
         "odds": "SP",
@@ -3889,23 +2271,8 @@
   {
     "day": "Today",
     "time": "N/A",
-    "course": "Meydan",
+    "course": "Downpatrick",
     "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
       {
         "horse": "Unknown",
         "odds": "SP",
@@ -3961,106 +2328,7 @@
   {
     "day": "Today",
     "time": "N/A",
-    "course": "Meydan",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Meydan",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Meydan",
+    "course": "Downpatrick",
     "runners": [
       {
         "horse": "Unknown",
@@ -4112,7 +2380,7 @@
   {
     "day": "Today",
     "time": "N/A",
-    "course": "Gulfstream Park",
+    "course": "Chukyo",
     "runners": [
       {
         "horse": "Unknown",
@@ -4158,66 +2426,7 @@
         "horse": "Unknown",
         "odds": "SP",
         "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Gulfstream Park",
-    "runners": [
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
       },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      },
-      {
-        "horse": "Unknown",
-        "odds": "SP",
-        "implied_prob": 10.0
-      }
-    ]
-  },
-  {
-    "day": "Today",
-    "time": "N/A",
-    "course": "Oaklawn Park",
-    "runners": [
       {
         "horse": "Unknown",
         "odds": "SP",
